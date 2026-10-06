@@ -31,7 +31,7 @@ const slides = [
     highlight: "Everyday Lifestyle.",
     description:
       "Explore trending electronics, fashion and more with exclusive deals.",
-   image: '/Assests/hero-section/carouselimage/image-2.jpg',
+   image: '/Assests/hero-section/carouselimage/images-2.jpeg',
     button: "Explore Products",
   },
   {
@@ -40,7 +40,7 @@ const slides = [
     highlight: "Bigger Savings.",
     description:
       "Don't miss our latest offers and limited-time discounts.",
-    image: '/Assests/hero-section/carouselimage/image-3.jpg',
+    image: '/Assests/hero-section/carouselimage/images-3.jpg',
     button: "View Deals",
   },
   {
@@ -49,7 +49,7 @@ const slides = [
     highlight: "Bigger Savings.",
     description:
       "Don't miss our latest offers and limited-time discounts.",
-    image:'/Assests/hero-section/carouselimage/image-4.jpg',
+    image:'/Assests/hero-section/carouselimage/image-5.jpg',
     button: "View Deals",
   },
 ];
@@ -60,11 +60,11 @@ export default function HeroCarousel() {
       modules={[Autoplay, Pagination, Navigation]}
       spaceBetween={0}
       slidesPerView={1}
-      navigation
-      pagination={{ clickable: true }}
+     
+      pagination={{ clickable: false }}
       autoplay={{
-        delay: 4000,
-        disableOnInteraction: false,
+        delay: 3000,
+        disableOnInteraction: true,
       }}
       loop={true}
     >
